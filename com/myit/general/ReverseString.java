@@ -5,9 +5,11 @@ public class ReverseString {
 	public static void main(String[] args) {
 		String reverse = "testing";
 		
+		//Using inbuild method
 		StringBuilder sb = new StringBuilder(reverse);
 		System.out.println(sb.reverse().toString());
 		
+		//Using recursive
 		new ReverseString().reverseString();
 		
 	}
