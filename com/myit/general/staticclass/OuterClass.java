@@ -1,4 +1,4 @@
-package com.myit.general.staticlass;
+package com.myit.general.staticclass;
 
 public class OuterClass {
 	private static String msg = "GeeksForGeeks";
